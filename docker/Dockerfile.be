@@ -2,7 +2,7 @@ FROM oven/bun:1
 
 WORKDIR /user/src/app
 
-COPY ./packages ./packages.json
+COPY ./packages ./packages
 COPY ./bun.lock ./bun.lock
 
 COPY ./package.json ./package.json
